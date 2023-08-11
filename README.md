@@ -1,6 +1,8 @@
 # Laravel stubs
 
-This repo contains opinionated versions of the Laravel stubs. The most notable changes are:
+This repo contains opinionated versions of the Laravel stubs.
+
+Forked from [spatie/laravel-stubs](https://github.com/spatie/laravel-stubs)
 
 ## Installation
 
