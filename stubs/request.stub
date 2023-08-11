@@ -1,0 +1,19 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Contracts\Validation\ValidationRule;
+
+class {{ class }} extends FormRequest
+{
+    /**
+     * @return array<string, ValidationRule|string|array<int, string|ValidationRule|Rule|Enum|Closure>>
+     */
+    public function rules(): array
+    {
+        return [
+            //
+        ];
+    }
+}
