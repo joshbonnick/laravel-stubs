@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelStubs\Stubs\Canvas;
+namespace JoshBonnick\LaravelStubs\Stubs\Canvas;
 
 class Package extends \Orchestra\Canvas\Core\Presets\Package
 {

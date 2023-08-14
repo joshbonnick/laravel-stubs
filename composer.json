@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelStubs\\Stubs\\": "src"
+            "JoshBonnick\\LaravelStubs\\Stubs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LaravelStubs\\Stubs\\Tests\\": "tests"
+            "JoshBonnick\\LaravelStubs\\Stubs\\Tests\\": "tests"
         }
     },
     "scripts": {

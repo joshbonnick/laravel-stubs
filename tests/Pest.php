@@ -1,5 +1,5 @@
 <?php
 
-use LaravelStubs\Stubs\Tests\TestCase;
+use JoshBonnick\LaravelStubs\Stubs\Tests\TestCase;
 
 uses(TestCase::class)->in('.');

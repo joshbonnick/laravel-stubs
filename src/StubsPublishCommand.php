@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelStubs\Stubs;
+namespace JoshBonnick\LaravelStubs\Stubs;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
