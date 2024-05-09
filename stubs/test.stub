@@ -2,11 +2,13 @@
 
 namespace {{ namespace }};
 
+use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
 
 class {{ class }} extends TestCase
 {
-    public function test_(): void
+    #[Test]
+    public function it_(): void
     {
     }
 }
