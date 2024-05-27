@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JoshBonnick\LaravelStubs\Stubs;
 
 use Illuminate\Console\Command;

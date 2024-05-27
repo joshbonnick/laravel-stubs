@@ -9,3 +9,4 @@
 /tests              export-ignore
 /.editorconfig      export-ignore
 /.github            export-ignore
+/pint.json          export-ignore
