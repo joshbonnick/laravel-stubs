@@ -2,8 +2,8 @@
 
 namespace JoshBonnick\LaravelStubs\Stubs\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use JoshBonnick\LaravelStubs\Stubs\StubsServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
 {

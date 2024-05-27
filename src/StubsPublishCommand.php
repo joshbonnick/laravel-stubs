@@ -19,16 +19,16 @@ class StubsPublishCommand extends Command
 
     public function handle()
     {
-        if ( ! $this->confirmToProceed()) {
+        if (! $this->confirmToProceed()) {
             return 1;
         }
 
-        if ( ! is_dir($stubsPath = $this->laravel->basePath('stubs'))) {
+        if (! is_dir($stubsPath = $this->laravel->basePath('stubs'))) {
             (new Filesystem())->makeDirectory($stubsPath);
         }
 
         $files = collect(File::files(__DIR__.'/../stubs'))
-            ->unless($this->option('force'), fn($files) => $this->unpublished($files));
+            ->unless($this->option('force'), fn ($files) => $this->unpublished($files));
 
         $published = $this->publish($files);
 
